@@ -382,7 +382,10 @@ body.menu-expanded button path {
     flex-direction: column;
     gap: 3.2rem;
 }
-
+.container {
+    display: grid;
+    place-items: center;     /* Centra horizontal y verticalmente */
+  }
 #services .card {
     padding: 2.4rem;
     text-align: left;
